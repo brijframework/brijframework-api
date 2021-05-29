@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>io.github.github-brijframework</groupId>
-	<artifactId>github-brijframework-api</artifactId>
-	<version>0.0.1</version>
+	<groupId>io.github.brijframework</groupId>
+	<artifactId>brijframework-api</artifactId>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>${project.groupId}:${project.artifactId}</name>
-	<url>https://github.com/github-brijframework/github-brijframework-api</url>
+	<url>https://github.com/brijframework/brijframework-api</url>
 	<description>This is the basic library of brijframework</description>
 
 	<properties>
@@ -41,15 +41,15 @@
 		<developer>
 			<name>Ram Kishor</name>
 			<email>ramkishor0509@gmail.com</email>
-			<organization>com.github.github-brijframework</organization>
-			<organizationUrl>https://github.com/github-brijframework/github-brijframework-api</organizationUrl>
+			<organization>com.github.brijframework</organization>
+			<organizationUrl>https://github.com/brijframework/brijframework-api</organizationUrl>
 		</developer>
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/github-brijframework/github-brijframework-api.git</connection>
-		<developerConnection>scm:git:ssh://github.com:github-brijframework/github-brijframework-api.git</developerConnection>
-		<url>http://github.com/github-brijframework/github-brijframework-api</url>
+		<connection>scm:git:git://github.com/brijframework/brijframework-api.git</connection>
+		<developerConnection>scm:git:ssh://github.com:brijframework/brijframework-api.git</developerConnection>
+		<url>http://github.com/brijframework/brijframework-api</url>
 	</scm>
 
 	<profiles>
@@ -65,7 +65,7 @@
 	</profiles>
 
 	<build>
-		<finalName>github-brijframework-api</finalName>
+		<finalName>brijframework-api</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
